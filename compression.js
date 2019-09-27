@@ -38,7 +38,7 @@ function compressBR(data) {
             return Buffer.from(brCompressed.buffer);
         }
     } catch (ex) {
-        console.log("[Error] Unable to compress brotly")
+        console.log("[Error] Unable to compress brotli")
     }
     return null;
 };
