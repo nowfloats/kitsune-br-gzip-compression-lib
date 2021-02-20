@@ -1,8 +1,18 @@
-# kit-br-gzip-compression-lib
-Kitsune brotli and gzip compression utils library for nodejs
+# <div align="center"> kit-br-gzip-compression-lib </div>
 
-# Steps
-- npm install
-- Put all files into src folder
-- node ./compression.js
-- see the output in brotli and gzip folder
+<div align="center"> Kitsune brotli and gzip compression utils library for nodejs</div>
+<br/>
+<br/>
+
+---
+
+### <div align="center"> **Steps** </div>
+
+---
+
+> -   `npm install`
+> -   Put all files into src folder
+> -   `node ./compression.js`
+> -   see the compressed output files in brotli and gzip folder
+
+---
