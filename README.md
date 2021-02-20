@@ -11,8 +11,10 @@
 ---
 
 > -   `npm install`
-> -   Put all files into src folder
+> -   Put all files\* into src folder
 > -   `node ./compression.js`
 > -   see the compressed output files in brotli and gzip folder
 
 ---
+
+\*Note: There is no limitation on type of files, you can use this tool for .html, .css, .js, .png, .jpg, .jpeg, .pdf and many more.
