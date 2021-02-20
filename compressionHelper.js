@@ -1,13 +1,25 @@
-const zlib = require('zlib');
-const brotli = require('brotli');
+import { gzipSync } from "zlib";
+import { compress } from "brotli";
 
-const compressBR = async function (data){
-    return brotli.compress(data);
+/**
+ * @description
+ * @param {any} data
+ * @returns {any}
+ */
+const compressBR = async function (data) {
+    return compress(data);
 };
 
+/**
+ * @description
+ * @param {any} data
+ * @returns {any}
+ */
 const compressGZ = async function (data) {
-    return zlib.gzipSync(data);
+    return gzipSync(data);
 };
 
-exports.compressBR = compressBR;
-exports.compressGZ = compressGZ;
+const _compressBR = compressBR;
+export { _compressBR as compressBR };
+const _compressGZ = compressGZ;
+export { _compressGZ as compressGZ };
