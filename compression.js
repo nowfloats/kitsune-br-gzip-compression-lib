@@ -2,9 +2,6 @@ import { writeFile, existsSync, mkdirSync } from "fs";
 import { dirname as _dirname } from "path";
 import { gzipSync } from "zlib";
 import { compress } from "brotli";
-const srcFolder = "./src";
-const brotliFolder = "./brotli/";
-const gzipFolder = "./gzip/";
 
 /**
  * @description Helper functions
