@@ -12,7 +12,8 @@
 
 > -   `npm install`
 > -   Put all files\* into src folder
-> -   `node ./compression.js`
+> -   `npm run start` ||
+> -   `nodemon run start` for debug purpose
 > -   see the compressed output files in brotli and gzip folder
 
 ---
