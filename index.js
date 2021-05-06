@@ -14,7 +14,7 @@ const gzipFolder = "./gzip/";
  */
 readdir(srcFolder, (err, fileNames) => {
     //Read all files from src folder and compress it
-    fileNames.forEach(function (fileName) {
+    fileNames.forEach(function(fileName) {
         //Brotli compression
         let brCompressed = compressBR(readFileSync("src/" + fileName));
         if (brCompressed) {
