@@ -3,3 +3,6 @@ package-lock.json
 /src/*
 /brotli/*
 /gzip/*
+package-lock.json
+target/npmlist.json
+package-lock.json

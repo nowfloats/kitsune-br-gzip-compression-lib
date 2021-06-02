@@ -4,6 +4,10 @@
     "description": "Kitsune brotli and gzip compression utils library for nodejs",
     "main": "index.js",
     "type": "module",
+    "scripts": {
+        "start": "node index.js",
+        "debug": "nodemon index.js"
+    },
     "dependencies": {
         "base64-js": "^1.5.1",
         "brotli": "^1.3.2",
@@ -16,15 +20,15 @@
     "devDependencies": {
         "nodemon": "^2.0.7"
     },
-    "scripts": {
-        "start": "node index.js",
-        "debug": "nodemon index.js"
-    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/nowfloats/kitsune-br-gzip-compression-lib.git"
     },
-    "author": "KitSune Development Team",
+    "author": {
+        "team": "KitSune Development Team",
+        "name": "Devesh Kumar",
+        "email": "devesh.k@getkitsune.com"
+    },
     "license": "ISC",
     "bugs": {
         "url": "https://github.com/nowfloats/kitsune-br-gzip-compression-lib/issues"
